@@ -1,0 +1,19 @@
+# login-page
+#include <stdio.h>
+int main()
+{
+  char username,d;
+  int password;
+  printf("enter the username:");
+  scanf("%c",&username);
+  printf("enter the password:");
+  scanf("%d",&password);
+  if((username=='d')&&(password==2305))
+  {
+      printf("login successful");
+  }
+  else{
+      printf("wromg credentials");
+  }
+    return 0;
+}
